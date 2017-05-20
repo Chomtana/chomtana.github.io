@@ -114,6 +114,7 @@ var data = [
 //283-322
 */
 
+/*
 var start = 323;
 var data = [
     ['indifferent','lukewarm','unimpressed','half-hearted','detached','apathetic','tepid'], //323
@@ -127,6 +128,64 @@ var data = [
     ['ironic','sarcastic','wry','sardonic','satirical'] //361-365
 ];
 //323-365
+*/
+
+/*
+var start = 366;
+var data = [
+    ['irrational','illogical','unfounded','unsubstantiated'], //366
+    ['irrelevant','immaterial','extraneous','inapplicable'], //370
+    ['irritable','sullen','bad-tempered','grumpy','morose','sulky','petulant'], //374
+    ['isolate','quarantine','segregate'], //381
+    ['join','be/get involved in','participate','take part in','engage in'], //384
+    ['judge','assess','evaluate','rate','gauge'], //389
+    ['jumble','shuffle','mix sth up','muddle'], //394
+    ['jump','leap','hop','vault','bounce','hurdle'], //398
+    ['justice','equality','fairness','equity'] //404-407
+];
+//366-407
+*/
+
+/*
+var start = 408;
+var data = [
+    ['keep','hold','store','retain'], //408
+    ['kill','murder','execute','assassinate','slay','eliminate'], //412
+    ['kind','good','generous','benign','benevolent','considerate','thoughtful'], //418
+    ['lack','absence','deficit','shortage','shortfall','deficiency','scarcity'], //425
+    ['large','big','great','substantial','considerable','extensive','hefty','sizeable','bumper','handsome'], //432
+    ['laugh','giggle','chuckle','crack up','snigger','snicker','roar'] //442-448
+];
+//408-448
+*/
+
+/*
+var start = 449;
+var data = [
+    ['lax','sloppy','shoddy','careless'], //449
+    ['leaflet','brochure','booklet','pamphlet','circular','handout','flyer'], //453
+    ['leak','seep','drip','discharge','ooze','leach','secret'], //460
+    ['legacy','heritage','inheritance','estate','bequest','birthright'], //467
+    ['legal','statutory','legitimate','valid','lawful','constitutional'], //473
+    ['leisure','square time','free time'], //479
+    ['lenient','soft','forgiving','merciful'], //482
+    ['level','degree','scale','extent','size','proportions','magnitude'] //486-492
+];
+//449-492
+*/
+
+var start = 493;
+var data = [
+    ['license','franchise','warrant','permit','charter','authorization','pass'], //493
+    ['likely','possible','potential','prospective','probable'], //500
+    ['limit','restriction','control','constraint','restraint','limitation','ceiling','curb','check'], //505
+    ['lively','spirited','exuberant','hearty','ebullient','animated','vivacious','bubbly'], //514
+    ['logo','trademark','arms','seal','emblem','stamp','colours','insignia','crest'], //522
+    ['lonely','alone','isolated','homesick','forlorn','bereft','desolate'] //531-537
+];
+//493-537
+
+//End 10 pages
 
 
 

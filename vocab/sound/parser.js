@@ -63,9 +63,9 @@ function parseAudio(data,callback,level) {
     } else if (data.length == 3) {
         url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,3)+'__/'+data;
     } else if (data.length==2) {
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,2)+'_/'+data.substr(0,2)+'___/'+data;
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,2)+'_/'+data.substr(0,2)+'__g/'+data;
     } else { //len=1
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,1)+'__/'+data.substr(0,1)+'____/'+data;
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,1)+'__/'+data.substr(0,1)+'__gb/'+data;
     }
     
     if (level>=2 && level<=3) {
