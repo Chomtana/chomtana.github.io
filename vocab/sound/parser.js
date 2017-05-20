@@ -49,8 +49,11 @@ function parseAudio(data,callback,level) {
     if (!level) level = 0;
     
     var url;
+    var olddata = data;
     
-    data = data.replace(/ /g,'_');
+    data = data.replace(/[ \-']/g,'_');
+    data = data.replace(/sth/g,'something');
+    data = data.replace(/sb/g,'somebody');
     //console.error(data);
     
     if (data.length >= 5) {
@@ -78,11 +81,55 @@ function parseAudio(data,callback,level) {
             callback(url);
         } else {
             if (level==0) {
-                parseAudio("x"+data,callback,1);
+                parseAudio("x"+olddata,callback,1);
             } else if (level==1) {
-                parseAudio(data.substr(1),callback,2);
+                parseAudio(olddata.substr(1),callback,2);
             } else if (level==2) {
-                parseAudio("x"+data,callback,3);
+                parseAudio("x"+olddata,callback,3);
+            } else if (level==3) {
+                data = olddata.substr(1);
+                var dataparts = data.split(/[ _\/]/);
+                //console.error(dataparts);
+                if (dataparts.length==1) {
+                    callback("");
+                } else {
+                    var status = [];
+                    for(var i = 0;i<dataparts.length;i++) {
+                        status.push("wait");
+                    }
+                    
+                    dataparts.forEach(function(part,ii) {
+                        "use strict";
+                        let i = ii;
+                        parseAudio(part,function(parturl) {
+                            //console.error(parturl);
+                            status[i] = parturl;
+                            
+                            var ret = true;
+                            for(var j = 0;j<status.length;j++) {
+                                if (status[j]=="wait") {
+                                    ret = false;
+                                    break;
+                                }
+                            }
+                            
+                            var urlres = ""; //hack base system using script injection technique
+                            
+                            if (ret) {
+                                //console.error(status);
+                                urlres = status[0];
+                                for(var j = 1;j<status.length;j++) {
+                                    urlres += '"></audio><audio controls><source src="';
+                                    urlres += status[j];
+                                }
+                                //console.error(urlres);
+                                callback(urlres);
+                            }
+                            
+                            
+                        });
+                    });
+                }
             }
         }
     });

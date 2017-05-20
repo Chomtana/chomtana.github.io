@@ -1,55 +1,62 @@
 <div class="rootgroup">
-	<div class="groupchild">123. extravagant<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ext/extra/extravagant__gb_1.mp3"></audio></div>
-	<div class="groupchild">124. wasteful<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/was/waste/wasteful__gb_1.mp3"></audio></div>
-	<div class="groupchild">125. lavish<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lav/lavis/lavish__gb_1.mp3"></audio></div>
+	<div class="groupchild">323. indifferent<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ind/indif/indifferent__gb_1.mp3"></audio></div>
+	<div class="groupchild">324. lukewarm<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/luk/lukew/lukewarm__gb_1.mp3"></audio></div>
+	<div class="groupchild">325. unimpressed<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/uni/unimp/unimpressed__gb_1.mp3"></audio></div>
+	<div class="groupchild">326. half-hearted<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hal/half_/half_hearted_1_gb_1.mp3"></audio></div>
+	<div class="groupchild">327. detached<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/det/detac/detached__gb_2.mp3"></audio></div>
+	<div class="groupchild">328. apathetic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/apa/apath/apathetic__gb_1.mp3"></audio></div>
+	<div class="groupchild">329. tepid<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tep/tepid/tepid__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">126. face<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fac/face_/face__gb_3.mp3"></audio></div>
-	<div class="groupchild">127. confront<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/x/xco/xconf/xconfront__gb_1.mp3"></audio></div>
-	<div class="groupchild">128. encounter<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/enc/encou/encounter__gb_1.mp3"></audio></div>
+	<div class="groupchild">330. inevitable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ine/inevi/inevitable__gb_2.mp3"></audio></div>
+	<div class="groupchild">331. necessary<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/nec/neces/necessary__gb_2.mp3"></audio></div>
+	<div class="groupchild">332. unavoidable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/una/unavo/unavoidable__gb_2.mp3"></audio></div>
+	<div class="groupchild">333. inescapable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ine/inesc/inescapable__gb_1.mp3"></audio></div>
+	<div class="groupchild">334. inexorable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ine/inexo/inexorable__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">129. famous<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fam/famou/famous__gb_1.mp3"></audio></div>
-	<div class="groupchild">130. well known<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wel/well_/well_known_1_gb_1.mp3"></audio></div>
-	<div class="groupchild">131. prominent<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pro/promi/prominent__gb_1.mp3"></audio></div>
-	<div class="groupchild">132. renowned<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/ren/renow/renowned__gb_1.mp3"></audio></div>
-	<div class="groupchild">133. famed<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fam/famed/famed__gb_1.mp3"></audio></div>
-	<div class="groupchild">134. glorious<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/glo/glori/glorious__gb_1.mp3"></audio></div>
-	<div class="groupchild">135. celebrated<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cel/celeb/celebrated__gb_2.mp3"></audio></div>
+	<div class="groupchild">335. informative<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/inf/infor/informative__gb_1.mp3"></audio></div>
+	<div class="groupchild">336. revealing<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rev/revea/revealing__gb_2.mp3"></audio></div>
+	<div class="groupchild">337. instructive<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ins/instr/instructive__gb_1.mp3"></audio></div>
+	<div class="groupchild">338. illuminating<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ill/illum/illuminating__gb_2.mp3"></audio></div>
+	<div class="groupchild">339. enlightening<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/enl/enlig/enlightening__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">136. fatal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fat/fatal/fatal__gb_1.mp3"></audio></div>
-	<div class="groupchild">137. deadly<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dea/deadl/deadly__gb_1.mp3"></audio></div>
-	<div class="groupchild">138. lethal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/let/letha/lethal__gb_1.mp3"></audio></div>
-	<div class="groupchild">139. malignant<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mal/malig/malignant__gb_1.mp3"></audio></div>
-	<div class="groupchild">140. terminal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/ter/termi/terminal__gb_3.mp3"></audio></div>
-	<div class="groupchild">141. incurable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/inc/incur/incurable__gb_1.mp3"></audio></div>
-	<div class="groupchild">142. inoperable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ino/inope/inoperable__gb_1.mp3"></audio></div>
+	<div class="groupchild">340. inspection<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ins/inspe/inspection__gb_1.mp3"></audio></div>
+	<div class="groupchild">341. examination<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exa/exami/examination__gb_2.mp3"></audio></div>
+	<div class="groupchild">342. surveillance<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sur/surve/surveillance__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">143. fear<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fea/fear_/fear__gb_1.mp3"></audio></div>
-	<div class="groupchild">144. terror<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/ter/terro/terror__gb_1.mp3"></audio></div>
-	<div class="groupchild">145. panic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pan/panic/panic__gb_1.mp3"></audio></div>
-	<div class="groupchild">146. alarm<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ala/alarm/alarm__gb_1.mp3"></audio></div>
-	<div class="groupchild">147. fright<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fri/frigh/fright__gb_1.mp3"></audio></div>
-	<div class="groupchild">148. hysteria<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hys/hyste/hysteria__gb_1.mp3"></audio></div>
-	<div class="groupchild">149. dread<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dre/dread/dread__gb_1.mp3"></audio></div>
-	<div class="groupchild">150. paranoia<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/par/paran/paranoia__gb_1.mp3"></audio></div>
-	<div class="groupchild">151. phobia<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pho/phobi/phobia__gb_1.mp3"></audio></div>
+	<div class="groupchild">343. insulting<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ins/insul/insulting__gb_2.mp3"></audio></div>
+	<div class="groupchild">344. derogatory<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/der/derog/derogatory__gb_1.mp3"></audio></div>
+	<div class="groupchild">345. disparaging<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dis/dispa/disparaging__gb_1.mp3"></audio></div>
+	<div class="groupchild">346. pejorative<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pej/pejor/pejorative__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">152. filter<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fil/filte/filter__gb_1.mp3"></audio></div>
-	<div class="groupchild">153. purify<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pur/purif/purify__gb_1.mp3"></audio></div>
-	<div class="groupchild">154. refine<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/ref/refin/refine__gb_1.mp3"></audio></div>
-	<div class="groupchild">155. strain<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/str/strai/strain__gb_1.mp3"></audio></div>
-	<div class="groupchild">156. sieve<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sie/sieve/sieve__gb_1.mp3"></audio></div>
-	<div class="groupchild">157. sift<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sif/sift_/sift__gb_1.mp3"></audio></div>
+	<div class="groupchild">347. integrity<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/int/integ/integrity__gb_1.mp3"></audio></div>
+	<div class="groupchild">348. honesty<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hon/hones/honesty__gb_1.mp3"></audio></div>
+	<div class="groupchild">349. honour<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hon/honou/honour__gb_1.mp3"></audio></div>
+	<div class="groupchild">350. probity<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pro/probi/probity__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">158. flexible<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fle/flexi/flexible__gb_3.mp3"></audio></div>
-	<div class="groupchild">159. versatile<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/v/ver/versa/versatile__gb_1.mp3"></audio></div>
-	<div class="groupchild">160. adjustable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/adj/adjus/adjustable__gb_1.mp3"></audio></div>
-	<div class="groupchild">161. convertible<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/x/xco/xconv/xconvertible__gb_1.mp3"></audio></div>
-	<div class="groupchild">162. adaptable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ada/adapt/adaptable__gb_1.mp3"></audio></div>
+	<div class="groupchild">351. interesting<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/int/inter/interesting__gb_4.mp3"></audio></div>
+	<div class="groupchild">352. fascinating<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fas/fasci/fascinating__gb_2.mp3"></audio></div>
+	<div class="groupchild">353. compelling<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/com/compe/compelling__gb_3.mp3"></audio></div>
+	<div class="groupchild">354. stimulating<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sti/stimu/stimulating__gb_2.mp3"></audio></div>
+	<div class="groupchild">355. gripping<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/gri/gripp/gripping__gb_2.mp3"></audio></div>
+	<div class="groupchild">356. riveting<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/riv/rivet/riveting__gb_2.mp3"></audio></div>
+</div>
+<div class="rootgroup">
+	<div class="groupchild">357. intervene<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/int/inter/intervene__gb_2.mp3"></audio></div>
+	<div class="groupchild">358. mediate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/med/media/mediate__gb_4.mp3"></audio></div>
+	<div class="groupchild">359. intercede<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/int/inter/intercede__gb_1.mp3"></audio></div>
+	<div class="groupchild">360. arbitrate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/arb/arbit/arbitrate__gb_1.mp3"></audio></div>
+</div>
+<div class="rootgroup">
+	<div class="groupchild">361. ironic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/iro/ironi/ironic__gb_1.mp3"></audio></div>
+	<div class="groupchild">362. sarcastic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sar/sarca/sarcastic__gb_1.mp3"></audio></div>
+	<div class="groupchild">363. wry<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wry/wry__/wry__gb_1.mp3"></audio></div>
+	<div class="groupchild">364. sardonic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sar/sardo/sardonic__gb_1.mp3"></audio></div>
+	<div class="groupchild">365. satirical<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sat/satir/satirical__gb_1.mp3"></audio></div>
 </div>
 

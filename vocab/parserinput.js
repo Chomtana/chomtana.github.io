@@ -41,6 +41,7 @@ var data = [
 //80-122
 */
 
+/*
 var start = 123;
 var data = [
     ['extravagant','wasteful','lavish'], //123
@@ -52,6 +53,80 @@ var data = [
     ['flexible','versatile','adjustable','convertible','adaptable'] //158-162
 ]
 //123-162
+*/
+
+/*
+var start = 163;
+var data = [
+    ['fragile','delicate','brittle','breakable'], //163
+    ['fraud','deception','dishonesty','deceit'], //167
+    ['friendship','intimacy','acquaintance','companionship','camaraderie'], //171
+    ['fundamental','underlying','radical','basic','elementary'], //176
+    ['funny','amusing','entertaining','witty','humorous','hilarious','light-hearted'], //181
+    ['greedy','insatiable','materialistic','voracious','mercenary'], //188
+    ['grief','sadness','sorrow','melancholy'], //193
+    ['guerrilla','rebel','terrorist','insurgent','partisan'] //197-201
+];
+//163-201
+*/
+
+/*
+var start = 202;
+var data = [
+    ['harass','nag','pester','hound','hector'], //202
+    ['harmful','destructive','detrimental','pernicious'], //207
+    ['harsh','severe','bleak'], //211
+    ['hate','dislike',"can't stand",'despise',"can't bear",'loathe','detest','abhor'], //214
+    ['heavy','bulky','massive','dense'], //222
+    ['hesitant','faltering','uncertain','tentative','halting'], //226
+    ['hide','conceal','disguise','camouflage'], //231
+    ['hoarse','raucous','harsh','husky','guttural','rough','strident','gruff'], //235-242
+];
+//202-242
+*/
+
+/*
+var start = 243;
+var data = [
+    ['hold','cling','clutch','grip','grasp','clasp','handle'], //243
+    ['frank','outspoken','blunt','sincere','truthful','candid','forthright'], //250
+    ['hostage','prisoner','captive','detainee'], //257
+    ['hug','embrace','cuddle','cradle','snuggle'], //261
+    ['huge','massive','vast','enormous','giant','tremendous','gigantic','immense','monumental','colossal'], //266
+    ['hungry','starving','ravenous'], //276
+    ['identify','isolate','discern','pinpoint'], //279-282
+];
+//243-282
+*/
+
+/*
+var start = 283;
+var data = [
+    ['ignorance','inexperience','naivety','incomprehension'], //283
+    ['illegal','criminal','unlawful','unconstitutional','illicit','illegitimate'], //287
+    ['immediate','instant','prompt','instantaneous'], //293
+    ['important','significant','notable','momentous'], //297
+    ['improper','indecent','unseemly','undignified','indiscreet'], //301
+    ['inadequate','insufficient','lacking','meager','scant','sparse','paltry','deficient'], //306
+    ['incentive','motivation','stimulus','impetus','inducement'], //314
+    ['inconsistent','incompatible','contradictory','irreconcilable'] //319-322
+];
+//283-322
+*/
+
+var start = 323;
+var data = [
+    ['indifferent','lukewarm','unimpressed','half-hearted','detached','apathetic','tepid'], //323
+    ['inevitable','necessary','unavoidable','inescapable','inexorable'], //330
+    ['informative','revealing','instructive','illuminating','enlightening'], //335
+    ['inspection','examination','surveillance'], //340
+    ['insulting','derogatory','disparaging','pejorative'], //343
+    ['integrity','honesty','honour','probity'], //347
+    ['interesting','fascinating','compelling','stimulating','gripping','riveting'], //351
+    ['intervene','mediate','intercede','arbitrate'], //357
+    ['ironic','sarcastic','wry','sardonic','satirical'] //361-365
+];
+//323-365
 
 
 
