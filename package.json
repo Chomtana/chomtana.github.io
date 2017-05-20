@@ -1,0 +1,23 @@
+{
+  "name": "chomtana_github_page",
+  "version": "1.0.0",
+  "description": "chomtana.github.io",
+  "main": "main.js",
+  "dependencies": {
+    "url-exists": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chomtana/chomtana.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chomtana/chomtana.github.io/issues"
+  },
+  "homepage": "https://github.com/Chomtana/chomtana.github.io#readme"
+}

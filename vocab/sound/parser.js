@@ -1,29 +1,8 @@
 var urlExists = require('url-exists');
+var in_raw = require('../parserinput.js');
 
-//input
-/*var in_start = 1;
-var in_data = [
-    ['abandon','desert','vacate','evacuate','relinquish','abdicate'], //1
-    ['abnormal','rogue','deviant','anomalous'], //7
-    ['accomplice','conspirator','accessory','plotter'], //11
-    ['achieve','accomplish','attain','fulfil'], //13
-    ['addictive','obsessive','compulsive','obsessional'], //19
-    ['adequate','sufficient','ample','acceptable'], //23
-    ['frightened','scared','terrified','fearful','paranoid','intimidated','startled','petrified'], //27
-    ['aggressive','hostile','militant','warlike'], //35
-];
-//1-38
-*/
-var in_start = 39;
-var in_data = [
-    ['amazing','astonishing','awesome','staggering','breathtaking','miraculous','stunning'], //39
-    ['infuriate','antagonize','outrage','enrage','incense'], //46
-    ['annoy','frustrate','irritate','displease','exasperate'], //51
-    ['artificial','synthetic','false','fake','imitation'], //56
-    ['awareness','knowledge','consciousness','realization','perception'], //61
-    ['barrier','obstacle','impediment','hindrance','handicap','hurdle'], //66
-    ['essential','vital','crucial','critical','decisive','indispensable','imperative','pivotal'] //72
-];
+var in_start = in_raw.start;
+var in_data = in_raw.data;
 
 
 
@@ -111,6 +90,14 @@ in_data.forEach(function(g_data,g_id) {
     resready.push(true);
 });
 
+//for fix bug -> if slower than 20sec -> print current state
+var bugtimeout = setTimeout(function() {
+    console.error("Bug");
+    for(var i = 0;i<resready.length;i++) {
+        resready[i] = true;
+    }
+},20000);
+
 function allready() {
     //console.log(resready);
     for(var i = 0;i<resready.length;i++) {
@@ -134,14 +121,7 @@ function doprint() {
     });
     
     console.log(realres);
+    clearTimeout(bugtimeout);
 }
 
 setTimeout(doprint,100);
-
-//for fix bug -> if slower than 1min -> print current state
-setTimeout(function() {
-    console.error("Bug");
-    for(var i = 0;i<resready.length;i++) {
-        resready[i] = true;
-    }
-},60000);
