@@ -26,6 +26,7 @@ var data = [
 //39-79
 */
 
+/*
 var start = 80;
 var data = [
     ['estimate','guess','reckon','gauge','extrapolate'], //80
@@ -38,7 +39,19 @@ var data = [
     ['expel','deport','exile','banish','extradite','repatriate','displace'] //116-122
 ];
 //80-122
+*/
 
+var start = 123;
+var data = [
+    ['extravagant','wasteful','lavish'], //123
+    ['face','confront','encounter'], //126
+    ['famous','well known','prominent','renowned','famed','glorious','celebrated'], //129
+    ['fatal','deadly','lethal','malignant','terminal','incurable','inoperable'], //136
+    ['fear','terror','panic','alarm','fright','hysteria','dread','paranoia','phobia'], //143
+    ['filter','purify','refine','strain','sieve','sift'], //152
+    ['flexible','versatile','adjustable','convertible','adaptable'] //158-162
+]
+//123-162
 
 
 

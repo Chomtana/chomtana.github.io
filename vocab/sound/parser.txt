@@ -1,60 +1,55 @@
 <div class="rootgroup">
-	<div class="groupchild">80. estimate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/est/estim/estimate__gb_4.mp3"></audio></div>
-	<div class="groupchild">81. guess<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/gue/guess/guess__gb_1.mp3"></audio></div>
-	<div class="groupchild">82. reckon<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rec/recko/reckon__gb_1.mp3"></audio></div>
-	<div class="groupchild">83. gauge<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/gau/gauge/gauge__gb_1.mp3"></audio></div>
-	<div class="groupchild">84. extrapolate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ext/extra/extrapolate__gb_1.mp3"></audio></div>
+	<div class="groupchild">123. extravagant<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ext/extra/extravagant__gb_1.mp3"></audio></div>
+	<div class="groupchild">124. wasteful<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/was/waste/wasteful__gb_1.mp3"></audio></div>
+	<div class="groupchild">125. lavish<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lav/lavis/lavish__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">85. evidence<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/evi/evide/evidence__gb_2.mp3"></audio></div>
-	<div class="groupchild">86. proof<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pro/proof/proof__gb_1.mp3"></audio></div>
-	<div class="groupchild">87. support<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sup/suppo/support__gb_2.mp3"></audio></div>
-	<div class="groupchild">88. testimony<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tes/testi/testimony__gb_1.mp3"></audio></div>
-	<div class="groupchild">89. demonstration<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dem/demon/demonstration__gb_1.mp3"></audio></div>
+	<div class="groupchild">126. face<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fac/face_/face__gb_3.mp3"></audio></div>
+	<div class="groupchild">127. confront<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/x/xco/xconf/xconfront__gb_1.mp3"></audio></div>
+	<div class="groupchild">128. encounter<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/enc/encou/encounter__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">90. exact<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exa/exact/exact__gb_1.mp3"></audio></div>
-	<div class="groupchild">91. precise<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pre/preci/precise__gb_2.mp3"></audio></div>
-	<div class="groupchild">92. accurate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/acc/accur/accurate__gb_3.mp3"></audio></div>
-	<div class="groupchild">93. specific<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/spe/speci/specific__gb_3.mp3"></audio></div>
+	<div class="groupchild">129. famous<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fam/famou/famous__gb_1.mp3"></audio></div>
+	<div class="groupchild">130. well known<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wel/well_/well_known_1_gb_1.mp3"></audio></div>
+	<div class="groupchild">131. prominent<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pro/promi/prominent__gb_1.mp3"></audio></div>
+	<div class="groupchild">132. renowned<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/ren/renow/renowned__gb_1.mp3"></audio></div>
+	<div class="groupchild">133. famed<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fam/famed/famed__gb_1.mp3"></audio></div>
+	<div class="groupchild">134. glorious<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/glo/glori/glorious__gb_1.mp3"></audio></div>
+	<div class="groupchild">135. celebrated<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cel/celeb/celebrated__gb_2.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">94. exaggerate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exa/exagg/exaggerate__gb_1.mp3"></audio></div>
-	<div class="groupchild">95. overstate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/ove/overs/overstate__gb_1.mp3"></audio></div>
-	<div class="groupchild">96. dramatize<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dra/drama/dramatize__gb_1.mp3"></audio></div>
-	<div class="groupchild">97. embellish<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/emb/embel/embellish__gb_1.mp3"></audio></div>
-	<div class="groupchild">98. inflate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/inf/infla/inflate__gb_1.mp3"></audio></div>
+	<div class="groupchild">136. fatal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fat/fatal/fatal__gb_1.mp3"></audio></div>
+	<div class="groupchild">137. deadly<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dea/deadl/deadly__gb_1.mp3"></audio></div>
+	<div class="groupchild">138. lethal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/let/letha/lethal__gb_1.mp3"></audio></div>
+	<div class="groupchild">139. malignant<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mal/malig/malignant__gb_1.mp3"></audio></div>
+	<div class="groupchild">140. terminal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/ter/termi/terminal__gb_3.mp3"></audio></div>
+	<div class="groupchild">141. incurable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/inc/incur/incurable__gb_1.mp3"></audio></div>
+	<div class="groupchild">142. inoperable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ino/inope/inoperable__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">99. excellent<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exc/excel/excellent__gb_1.mp3"></audio></div>
-	<div class="groupchild">100. outstanding<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/out/outst/outstanding__gb_1.mp3"></audio></div>
-	<div class="groupchild">101. perfect<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/per/perfe/perfect__gb_3.mp3"></audio></div>
-	<div class="groupchild">102. superb<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sup/super/superb__gb_2.mp3"></audio></div>
+	<div class="groupchild">143. fear<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fea/fear_/fear__gb_1.mp3"></audio></div>
+	<div class="groupchild">144. terror<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/ter/terro/terror__gb_1.mp3"></audio></div>
+	<div class="groupchild">145. panic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pan/panic/panic__gb_1.mp3"></audio></div>
+	<div class="groupchild">146. alarm<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ala/alarm/alarm__gb_1.mp3"></audio></div>
+	<div class="groupchild">147. fright<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fri/frigh/fright__gb_1.mp3"></audio></div>
+	<div class="groupchild">148. hysteria<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hys/hyste/hysteria__gb_1.mp3"></audio></div>
+	<div class="groupchild">149. dread<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dre/dread/dread__gb_1.mp3"></audio></div>
+	<div class="groupchild">150. paranoia<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/par/paran/paranoia__gb_1.mp3"></audio></div>
+	<div class="groupchild">151. phobia<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pho/phobi/phobia__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">103. excited<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exc/excit/excited__gb_3.mp3"></audio></div>
-	<div class="groupchild">104. ecstatic<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ecs/ecsta/ecstatic__gb_1.mp3"></audio></div>
-	<div class="groupchild">105. elated<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ela/elate/elated__gb_1.mp3"></audio></div>
-	<div class="groupchild">106. euphoric<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/eup/eupho/euphoric__gb_1.mp3"></audio></div>
-	<div class="groupchild">107. rapturous<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rap/raptu/rapturous__gb_1.mp3"></audio></div>
-	<div class="groupchild">108. exhilarated<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exh/exhil/exhilarated__gb_1.mp3"></audio></div>
+	<div class="groupchild">152. filter<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fil/filte/filter__gb_1.mp3"></audio></div>
+	<div class="groupchild">153. purify<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pur/purif/purify__gb_1.mp3"></audio></div>
+	<div class="groupchild">154. refine<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/ref/refin/refine__gb_1.mp3"></audio></div>
+	<div class="groupchild">155. strain<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/str/strai/strain__gb_1.mp3"></audio></div>
+	<div class="groupchild">156. sieve<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sie/sieve/sieve__gb_1.mp3"></audio></div>
+	<div class="groupchild">157. sift<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sif/sift_/sift__gb_1.mp3"></audio></div>
 </div>
 <div class="rootgroup">
-	<div class="groupchild">109. expand<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exp/expan/expand__gb_3.mp3"></audio></div>
-	<div class="groupchild">110. widen<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wid/widen/widen__gb_1.mp3"></audio></div>
-	<div class="groupchild">111. extend<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ext/exten/extend__gb_1.mp3"></audio></div>
-	<div class="groupchild">112. enlarge<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/enl/enlar/enlarge__gb_1.mp3"></audio></div>
-	<div class="groupchild">113. broaden<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bro/broad/broaden__gb_1.mp3"></audio></div>
-	<div class="groupchild">114. lengthen<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/len/lengt/lengthen__gb_1.mp3"></audio></div>
-	<div class="groupchild">115. stretch<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/str/stret/stretch__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">116. expel<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exp/expel/expel__gb_1.mp3"></audio></div>
-	<div class="groupchild">117. deport<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dep/depor/deport__gb_1.mp3"></audio></div>
-	<div class="groupchild">118. exile<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/exi/exile/exile__gb_2.mp3"></audio></div>
-	<div class="groupchild">119. banish<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/ban/banis/banish__gb_1.mp3"></audio></div>
-	<div class="groupchild">120. extradite<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ext/extra/extradite__gb_1.mp3"></audio></div>
-	<div class="groupchild">121. repatriate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rep/repat/repatriate__gb_1.mp3"></audio></div>
-	<div class="groupchild">122. displace<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dis/displ/displace__gb_1.mp3"></audio></div>
+	<div class="groupchild">158. flexible<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fle/flexi/flexible__gb_3.mp3"></audio></div>
+	<div class="groupchild">159. versatile<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/v/ver/versa/versatile__gb_1.mp3"></audio></div>
+	<div class="groupchild">160. adjustable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/adj/adjus/adjustable__gb_1.mp3"></audio></div>
+	<div class="groupchild">161. convertible<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/x/xco/xconv/xconvertible__gb_1.mp3"></audio></div>
+	<div class="groupchild">162. adaptable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ada/adapt/adaptable__gb_1.mp3"></audio></div>
 </div>
 

@@ -45,19 +45,30 @@ function scanurl(url,cb) {
     }
 }
 
-function parseAudio(data,callback) {
+function parseAudio(data,callback,level) {
+    if (!level) level = 0;
+    
     var url;
     
+    data = data.replace(/ /g,'_');
+    //console.error(data);
+    
     if (data.length >= 5) {
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,5)+'/'+data+'__gb_';
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,5)+'/'+data;
     } else if (data.length == 4) {
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,4)+'_/'+data+'__gb_';
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,4)+'_/'+data;
     } else if (data.length == 3) {
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,3)+'__/'+data+'__gb_';
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,3)+'/'+data.substr(0,3)+'__/'+data;
     } else if (data.length==2) {
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,2)+'_/'+data.substr(0,2)+'___/'+data+'__gb_';
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,2)+'_/'+data.substr(0,2)+'___/'+data;
     } else { //len=1
-        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,1)+'__/'+data.substr(0,1)+'____/'+data+'__gb_';
+        url = 'http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/'+data.substr(0,1)+'/'+data.substr(0,1)+'__/'+data.substr(0,1)+'____/'+data;
+    }
+    
+    if (level>=2 && level<=3) {
+        url += '_1_gb_';
+    } else {
+        url += '__gb_';
     }
     
     scanurl(url,function(audioid) {
@@ -66,7 +77,13 @@ function parseAudio(data,callback) {
             url += '.mp3';
             callback(url);
         } else {
-            parseAudio("x"+data,callback);
+            if (level==0) {
+                parseAudio("x"+data,callback,1);
+            } else if (level==1) {
+                parseAudio(data.substr(1),callback,2);
+            } else if (level==2) {
+                parseAudio("x"+data,callback,3);
+            }
         }
     });
 }
