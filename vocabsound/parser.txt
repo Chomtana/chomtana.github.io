@@ -1,64 +1,3 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" href="vocabsound.css"> 
-    </head>
-    <body>
-<div class="rootgroup">
-	<div class="groupchild">1. abandon<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/aba/aband/abandon__gb_2.mp3"></audio></div>
-	<div class="groupchild">2. desert<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/des/deser/desert__gb_3.mp3"></audio></div>
-	<div class="groupchild">3. vacate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/v/vac/vacat/vacate__gb_2.mp3"></audio></div>
-	<div class="groupchild">4. evacuate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/eva/evacu/evacuate__gb_1.mp3"></audio></div>
-	<div class="groupchild">5. relinquish<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rel/relin/relinquish__gb_1.mp3"></audio></div>
-	<div class="groupchild">6. abdicate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/abd/abdic/abdicate__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">7. abnormal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/abn/abnor/abnormal__gb_1.mp3"></audio></div>
-	<div class="groupchild">8. rogue<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rog/rogue/rogue__gb_1.mp3"></audio></div>
-	<div class="groupchild">9. deviant<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dev/devia/deviant__gb_1.mp3"></audio></div>
-	<div class="groupchild">10. anomalous<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ano/anoma/anomalous__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">11. accomplice<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/acc/accom/accomplice__gb_1.mp3"></audio></div>
-	<div class="groupchild">12. conspirator<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/x/xco/xcons/xconspirator__gb_1.mp3"></audio></div>
-	<div class="groupchild">13. accessory<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/acc/acces/accessory__gb_1.mp3"></audio></div>
-	<div class="groupchild">14. plotter<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/plo/plott/plotter__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">15. achieve<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ach/achie/achieve__gb_2.mp3"></audio></div>
-	<div class="groupchild">16. accomplish<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/acc/accom/accomplish__gb_1.mp3"></audio></div>
-	<div class="groupchild">17. attain<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/att/attai/attain__gb_1.mp3"></audio></div>
-	<div class="groupchild">18. fulfil<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/ful/fulfi/fulfil__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">19. addictive<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/add/addic/addictive__gb_1.mp3"></audio></div>
-	<div class="groupchild">20. obsessive<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/obs/obses/obsessive__gb_1.mp3"></audio></div>
-	<div class="groupchild">21. compulsive<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/com/compu/compulsive__gb_1.mp3"></audio></div>
-	<div class="groupchild">22. obsessional<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/obs/obses/obsessional__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">23. adequate<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ade/adequ/adequate__gb_3.mp3"></audio></div>
-	<div class="groupchild">24. sufficient<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/suf/suffi/sufficient__gb_2.mp3"></audio></div>
-	<div class="groupchild">25. ample<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/amp/ample/ample__gb_1.mp3"></audio></div>
-	<div class="groupchild">26. acceptable<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/acc/accep/acceptable__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">27. frightened<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fri/frigh/frightened__gb_3.mp3"></audio></div>
-	<div class="groupchild">28. scared<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sca/scare/scared__gb_2.mp3"></audio></div>
-	<div class="groupchild">29. terrified<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/ter/terri/terrified__gb_2.mp3"></audio></div>
-	<div class="groupchild">30. fearful<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fea/fearf/fearful__gb_1.mp3"></audio></div>
-	<div class="groupchild">31. paranoid<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/par/paran/paranoid__gb_1.mp3"></audio></div>
-	<div class="groupchild">32. intimidated<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/int/intim/intimidated__gb_2.mp3"></audio></div>
-	<div class="groupchild">33. startled<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sta/start/startled__gb_1.mp3"></audio></div>
-	<div class="groupchild">34. petrified<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pet/petri/petrified__gb_1.mp3"></audio></div>
-</div>
-<div class="rootgroup">
-	<div class="groupchild">35. aggressive<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/agg/aggre/aggressive__gb_1.mp3"></audio></div>
-	<div class="groupchild">36. hostile<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hos/hosti/hostile__gb_1.mp3"></audio></div>
-	<div class="groupchild">37. militant<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mil/milit/militant__gb_1.mp3"></audio></div>
-	<div class="groupchild">38. warlike<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/war/warli/warlike__gb_1.mp3"></audio></div>
-</div>
-
 <div class="rootgroup">
 	<div class="groupchild">39. amazing<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ama/amazi/amazing__gb_1.mp3"></audio></div>
 	<div class="groupchild">40. astonishing<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/ast/aston/astonishing__gb_1.mp3"></audio></div>
@@ -115,11 +54,3 @@
 	<div class="groupchild">79. pivotal<audio controls><source src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/piv/pivot/pivotal__gb_1.mp3"></audio></div>
 </div>
 
-
-
-
-
-
-
-    </body>
-</html>
