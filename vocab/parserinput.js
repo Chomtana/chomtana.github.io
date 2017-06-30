@@ -167,7 +167,7 @@ var data = [
     ['leak','seep','drip','discharge','ooze','leach','secret'], //460
     ['legacy','heritage','inheritance','estate','bequest','birthright'], //467
     ['legal','statutory','legitimate','valid','lawful','constitutional'], //473
-    ['leisure','square time','free time'], //479
+    ['leisure','spare time','free time'], //479
     ['lenient','soft','forgiving','merciful'], //482
     ['level','degree','scale','extent','size','proportions','magnitude'] //486-492
 ];

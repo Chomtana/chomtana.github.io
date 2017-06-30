@@ -1,0 +1,171 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <style>
+        button {
+            width:75px;
+            height:40px;
+            margin:5px;
+        }
+    </style>
+    
+    <div id="text"></div>
+    <br>
+    <button onclick="ans();">answer</button><br>
+    <button onclick="fail();">fail</button><br>
+    <button onclick="ok();">ok</button><br>
+    <button onclick="shuffle(data);ci=0;process();">random -> reset</button><br>
+    
+    <script>
+var data = [
+    ['1. abandon','desert','vacate','evacuate','relinquish','abdicate','ละทิ้ง'], //1
+    ['7. abnormal','rogue','deviant','anomalous','ผิดปกติ'], //7
+    ['11. accomplice','conspirator','accessory','plotter','ผู้สมรู้ร่วมคิด'], //11
+    ['13. achieve','accomplish','attain','fulfil','ทำให้สำเร็จ'], //13
+    ['19. addictive','obsessive','compulsive','obsessional','ยากต่อการหยุด / ควบคุมไม่ได้'], //19
+    ['23. adequate','sufficient','ample','acceptable','พอเพียง'], //23
+    ['27. frightened','scared','terrified','fearful','paranoid','intimidated','startled','petrified','รู้สึกกลัวหรือตกใจ'], //27
+    ['35. aggressive','hostile','militant','warlike','ก้าวร้าว'], //35-38
+    ['39. amazing','astonishing','awesome','staggering','breathtaking','miraculous','stunning','น่าพิศวง'], //39
+    ['46. infuriate','antagonize','outrage','enrage','incense','ทำให้โกรธ'], //46
+    ['51. annoy','frustrate','irritate','displease','exasperate','ทำให้รำคาญ'], //51
+    ['56. artificial','synthetic','false','fake','imitation','เทียม / ปลอม / เลียนแบบ'], //56
+    ['61. awareness','knowledge','consciousness','realization','perception','การตระหนัก / การรับรู้'], //61
+    ['66. barrier','obstacle','impediment','hindrance','handicap','hurdle','อุปสรรค / สิ่งกีดขวาง'], //66
+    ['72. essential','vital','crucial','critical','decisive','indispensable','imperative','pivotal','จำเป็น'], //72-79
+    ['80. estimate','guess','reckon','gauge','extrapolate','ประมาณ (ราคา / ขนาด)'], //80
+    ['85. evidence','proof','support','testimony','demonstration','หลักฐาน'], //85
+    ['90. exact','precise','accurate','specific','แน่นอน / แม่นยำ'], //90
+    ['94. exaggerate','overstate','dramatize','embellish','inflate','พูดเกินความจิน'], //94
+    ['99. excellent','outstanding','perfect','superb','ดีเยี่ยม / โดดเด่น'], //99
+    ['103. excited','ecstatic','elated','euphoric','rapturous','exhilarated','รู้สึกตื่นเต้น'], //103
+    ['109. expand','widen','extend','enlarge','broaden','lengthen','stretch','ขยาย / ทำให้ยาว'], //109
+    ['116. expel','deport','exile','banish','extradite','repatriate','displace','ขับไล่ / เนรเทศ'], //116-122
+    ['123. extravagant','wasteful','lavish','ฟุ่มเฟือย / สุรุ่ยสุร่าย'], //123
+    ['126. face','confront','encounter','เผชิญหน้า'], //126
+    ['129. famous','well known','prominent','renowned','famed','glorious','celebrated','มีชื่อเสียง'], //129
+    ['136. fatal','deadly','lethal','malignant','terminal','incurable','inoperable','ถึงตาย / ร้ายแรง'], //136
+    ['143. fear','terror','panic','alarm','fright','hysteria','dread','paranoia','phobia','ความกลัว'], //143
+    ['152. filter','purify','refine','strain','sieve','sift','กรอง'], //152
+    ['158. flexible','versatile','adjustable','convertible','adaptable','ปรับได้ / ยืดหยุ่น'], //158-162
+    ['163. fragile','delicate','brittle','breakable','แปราะ / บอบบาง / แตกง่าย'], //163
+    ['167. fraud','deception','dishonesty','deceit','การฉ้อโกง / การหลอกลวง'], //167
+    ['171. friendship','intimacy','acquaintance','companionship','camaraderie','มิตรภาพ / ความเป็นมิตร'], //171
+    ['176. fundamental','underlying','radical','basic','elementary','ที่เป็นพื้นฐาน'], //176
+    ['181. funny','amusing','entertaining','witty','humorous','hilarious','light-hearted','สนุก / น่าเพลิดเพลิน'], //181
+    ['188. greedy','insatiable','materialistic','voracious','mercenary','ตะกละ / ละโมบ'], //188
+    ['193. grief','sadness','sorrow','melancholy','ความเศร้า'], //193
+    ['197. guerrilla','rebel','terrorist','insurgent','partisan','กองโจร / ผู้ก่อการร้าย'], //197-201
+    ['202. harass','nag','pester','hound','hector','ก่อกวน / ทำให้รำาญ'], //202
+    ['207. harmful','destructive','detrimental','pernicious','ที่เป็นอันตราย / ที่เป็นโทษ'], //207
+    ['211. harsh','severe','bleak','รุนแรง / โหดร้าย'], //211
+    ['214. hate','dislike',"can't stand",'despise',"can't bear",'loathe','detest','abhor','เกลียด'], //214
+    ['222. heavy','bulky','massive','dense','หนัก'], //222
+    ['226. hesitant','faltering','uncertain','tentative','halting','รีรอ / ไม่แน่ใจ'], //226
+    ['231. hide','conceal','disguise','camouflage','ซ่อน / ปิดบัง'], //231
+    ['235. hoarse','raucous','harsh','husky','guttural','rough','strident','gruff','ห้าว / แหบ'], //235-242
+    ['243. hold','cling','clutch','grip','grasp','clasp','handle'], //243
+    ['250. frank','outspoken','blunt','sincere','truthful','candid','forthright'], //250
+    ['257. hostage','prisoner','captive','detainee'], //257
+    ['261. hug','embrace','cuddle','cradle','snuggle'], //261
+    ['266. huge','massive','vast','enormous','giant','tremendous','gigantic','immense','monumental','colossal'], //266
+    ['276. hungry','starving','ravenous'], //276
+    ['279. identify','isolate','discern','pinpoint'], //279-282
+    ['283. ignorance','inexperience','naivety','incomprehension'], //283
+    ['287. illegal','criminal','unlawful','unconstitutional','illicit','illegitimate'], //287
+    ['293. immediate','instant','prompt','instantaneous'], //293
+    ['297. important','significant','notable','momentous'], //297
+    ['301. improper','indecent','unseemly','undignified','indiscreet'], //301
+    ['306. inadequate','insufficient','lacking','meager','scant','sparse','paltry','deficient'], //306
+    ['314. incentive','motivation','stimulus','impetus','inducement'], //314
+    ['319. inconsistent','incompatible','contradictory','irreconcilable'], //319-322
+    ['323. indifferent','lukewarm','unimpressed','half-hearted','detached','apathetic','tepid'], //323
+    ['330. inevitable','necessary','unavoidable','inescapable','inexorable'], //330
+    ['335. informative','revealing','instructive','illuminating','enlightening'], //335
+    ['340. inspection','examination','surveillance'], //340
+    ['343. insulting','derogatory','disparaging','pejorative'], //343
+    ['347. integrity','honesty','honour','probity'], //347
+    ['351. interesting','fascinating','compelling','stimulating','gripping','riveting'], //351
+    ['357. intervene','mediate','intercede','arbitrate'], //357
+    ['361. ironic','sarcastic','wry','sardonic','satirical'], //361-365
+    ['366. irrational','illogical','unfounded','unsubstantiated'], //366
+    ['370. irrelevant','immaterial','extraneous','inapplicable'], //370
+    ['374. irritable','sullen','bad-tempered','grumpy','morose','sulky','petulant'], //374
+    ['381. isolate','quarantine','segregate'], //381
+    ['384. join','be/get involved in','participate','take part in','engage in'], //384
+    ['389. judge','assess','evaluate','rate','gauge'], //389
+    ['394. jumble','shuffle','mix sth up','muddle'], //394
+    ['398. jump','leap','hop','vault','bounce','hurdle'], //398
+    ['404. justice','equality','fairness','equity'], //404-407
+    ['408. keep','hold','store','retain'], //408
+    ['412. kill','murder','execute','assassinate','slay','eliminate'], //412
+    ['418. kind','good','generous','benign','benevolent','considerate','thoughtful'], //418
+    ['425. lack','absence','deficit','shortage','shortfall','deficiency','scarcity'], //425
+    ['432. large','big','great','substantial','considerable','extensive','hefty','sizeable','bumper','handsome'], //432
+    ['442. laugh','giggle','chuckle','crack up','snigger','snicker','roar'], //442-448
+    ['449. lax','sloppy','shoddy','careless'], //449
+    ['453. leaflet','brochure','booklet','pamphlet','circular','handout','flyer'], //453
+    ['460. leak','seep','drip','discharge','ooze','leach','secret'], //460
+    ['467. legacy','heritage','inheritance','estate','bequest','birthright'], //467
+    ['473. legal','statutory','legitimate','valid','lawful','constitutional'], //473
+    ['479. leisure','spare time','free time'], //479
+    ['482. lenient','soft','forgiving','merciful'], //482
+    ['486. level','degree','scale','extent','size','proportions','magnitude'], //486-492
+    ['493. license','franchise','warrant','permit','charter','authorization','pass'], //493
+    ['500. likely','possible','potential','prospective','probable'], //500
+    ['505. limit','restriction','control','constraint','restraint','limitation','ceiling','curb','check'], //505
+    ['514. lively','spirited','exuberant','hearty','ebullient','animated','vivacious','bubbly'], //514
+    ['522. logo','trademark','arms','seal','emblem','stamp','colours','insignia','crest'], //522
+    ['531. lonely','alone','isolated','homesick','forlorn','bereft','desolate'] //531-537
+    
+]
+
+var ci = 0;
+
+function ans() {
+    var res = "";
+    for(var i = 0;i<data[ci].length;i++) {
+        res += data[ci][i]+"<br>";
+    }
+    document.getElementById("text").innerHTML = res;
+}
+
+function process() {
+    document.getElementById("text").innerHTML = data[ci][0];
+}
+
+function ok() {
+    ci++;
+    process();
+}
+
+function fail() {
+    data.splice(ci+4,0,data[ci]);
+    ci++;
+    process();
+}
+
+/**
+ * Shuffles array in place.
+ * @param {Array} a items The array containing the items.
+ */
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
+    }
+}
+
+process();
+
+
+    </script>
+    
+    </body>
+</html>
