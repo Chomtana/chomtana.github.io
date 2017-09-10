@@ -174,7 +174,7 @@ var data = [
 //449-492
 */
 
-var start = 493;
+/*var start = 493;
 var data = [
     ['license','franchise','warrant','permit','charter','authorization','pass'], //493
     ['likely','possible','potential','prospective','probable'], //500
@@ -182,10 +182,164 @@ var data = [
     ['lively','spirited','exuberant','hearty','ebullient','animated','vivacious','bubbly'], //514
     ['logo','trademark','arms','seal','emblem','stamp','colours','insignia','crest'], //522
     ['lonely','alone','isolated','homesick','forlorn','bereft','desolate'] //531-537
-];
+];*/
 //493-537
 
 //End 10 pages
+
+/*var start = 538;
+var data = [
+    ['long','covet','crave','yearn','hanker'], //538
+    ['luxury','splendor','glory','grandeur'], //543
+    ['mad','crazy','nuts','batty'], //547
+    ['magic','magical','mystical','supernatural','enchanted'], //551
+    ['magnificent','impressive','spectacular','grand','glorious','majestic'], //556
+    ['main','major','key','central','principal','chief','prime','predominant'], //562-569
+];*/
+//538-569
+
+/*var start = 570;
+var data = [
+    ['maintain','preserve','sustain','extend'], //570
+    ['manipulate','steer','engineer','manoeuvre'], //574
+    ['marsh','swamp','wetland','bog'], //578
+    ['massacre','bloodshed','carnage','genocide','slaughter'], //582
+    ['maximum','intense','extreme','utmost','supreme'], //587
+    ['mean','nasty','unkind','obnoxious','objectionable','unpleasant'] //592-597
+];*/
+//570-597
+
+/*var start = 598;
+var data = [
+    ['mediocre','indifferent','undistinguished','middling','so-so'], //598
+    ['mention','refer to sb/sth','cit','quote','allude to sb/sth'], //603
+    ['minor','trivial','petty','insignificant','peripheral','light','unimportant'], //608
+    ['miracle','wonder','phenomenon','marvel'], //615
+    ['misleading','ambiguous','deceptive','spurious'], //619
+    ['mistake','error','omission','blunder','gaffe','oversight'] //623-628
+];*/
+//598-628
+
+/*var start = 629;
+var data = [
+    ['misunderstand','misinterpret','get sth/sb wrong','misjudge'], //629
+    ['moderate','dampen','temper','blunt','tone sth down','modify'], //633
+    ['modest','humble','unassuming','unpretentious'], //639
+    ['moisture','damp','humidity','condensation','dew'], //643
+    ['monitor','track','keep an eye on sb/sth','watch','keep track of sb/sth'], //648
+    ['morality','right','goodness','purity','virtue','righteousness'] //653-658
+];*/
+//629-658
+
+/*var start = 659;
+var data = [
+    ['mourn','grieve','pine'], //659
+    ['murder','suicide','assassination','homicide','slaying','manslaughter','euthanasia'], //662
+    ['mystery','problem','paradox','puzzle','enigma'], //669
+    ['naive','inexperienced','innocent','trusting','gullible','impressionable'], //674
+    ['natural','genetic','intuitive','instinctive','innate','congenital','hereditary'] //680-686
+];*/
+//659-686
+
+/*var start = 687;
+var data = [
+    ['naughty','defiant','rebellious','disobedient'], //687
+    ['neat','tidy','ordered','orderly','uncluttered'], //691
+    ['necessary','compulsory','mandatory','requisite','obligatory'], //696
+    ['negative','bleak','gloomy','depressing','pessimistic','miserable','downbeat'], //701
+    ['negotiate','deal with sb/sth','hold talks','bargain','haggle'], //708
+    ['normal','ordinary','average','common','typical'], //713-717
+];*/
+//687-717
+
+/*var start = 718;
+var data = [
+    ['objective','impartial','neutral','disinterested','non-partisan','unbiased'], //718
+    ['obsession','preoccupation','mania','neurosis','hang-up','fixation','complex'], //724
+    ['odour','stench','smell','stink','reek'], //731
+    ['offensive','abusive','filthy','rude','foul','coarse'], //736
+    ['official','formal','authorized','licensed','accredited'] //742-746
+];
+//718-746*/
+
+/*var start = 747;
+var data = [
+    ['old-fashioned','obsolete','out of date','outdated','antiquated','dated'], //747
+    ['opportunity','chance','possibility','occasion'], //753
+    ['oppose','resist','combat','defy','rebel'], //757
+    ['optimistic','hopeful','positive','bullish','upbeat','expectant'], //762
+    ['option','choice','alternative','possibility'], //768-771
+];
+//747-771*/
+
+/*var start = 772;
+var data = [
+    ['output','production','productivity','yield'], //772
+    ['outrageous','shocking','disgraceful','shameful','scandalous','deplorable','unforgivable'], //776
+    ['overall','gross','umbrella','global','all-round','inclusive'], //783
+    ['overcome','get over sth','beat','conquer'], //789
+    ['overthrow','downfall','fall','nemesis','undoing'], //793-797
+];
+//772-797*/
+
+/*var start = 798;
+var data = [
+    ['overwhelm','swamp','bombard','flood','inundate'], //798
+    ['own','personal','individual','private','subjective','exclusive'], //803
+    ['packet','pack','package','carton','tube','tub','sachet'], //809
+    ['pain','ache','suffering','discomfort','agony'], //816
+    ['painful','sore','raw','inflamed','excruciating','burning','itchy'], //821
+    ['parallel','side by side','simultaneous','concurrent'] //828-831
+];
+//798-831*/
+
+/*var start = 832;
+var data = [
+    ['partial','incomplete','unfinished','fragmentary'], //832
+    ['participant','contender','challenger','contestant','competitor'], //836
+    ['particular','certain','separate','specific','individual','single','respective','distinct'], //841
+    ['partly','partially','to some extent','somewhat','moderately'], //849
+    ['passive','docile','amenable','submissive','meek','compliant'], //854-859
+];
+//832-859*/
+
+/*var start = 860;
+var data = [
+    ['patience','tolerance','resignation'], //860
+    ['patronizing','superior','condescending','snooty','snobbish'], //863
+    ['pause','hesitate','break off','dither'], //868
+    ['peak','top','height','highlight','climax','culmination','heyday'], //872
+    ['perfect','impeccable','exemplary','unspoiled','pristine','flawless','immaculate','faultless'] //879-886
+];
+//860-886*/
+
+/*var start = 887;
+var data = [
+    ['permanent','eternal','lasting','enduring','immortal'], //887
+    ['permission','consent','authorization','authority','clearance','the go-ahead'], //892
+    ['persist','keep going','hang on','persevere','keep at sth','struggle along/on'], //898
+    ['persuade','convince','coax','cajole','convert'], //904
+    ['perverse','difficult','unhelpful','awkward','obstructive','uncooperative'] //909-914
+];
+//887-914*/
+
+/*var start = 915;
+var data = [
+    ['pile','heap','stack','mass','mound'], //915
+    ['plain','plateau','grassland','prairie','lowland','savannah','steppe','pampas'], //920
+    ['plain','simple','bare','stark','severe','austere'], //928
+    ['please','gratify','satisfy','make sb day'] //934-937
+];
+//915-937*/
+
+var start = 938;
+var data = [
+    ['pleasure','delight','joy','privilege','treat','honour','pride'], //938
+    ['poison','toxin','venom'], //946
+    ['polite','civil','gracious','respectful','courteous','gentlemanly','deferential'], //949
+    ['poor','disadvantaged','needy','impoverished','deprived','penniless','destitute'] //956-962
+];
+//938-962
 
 
 
