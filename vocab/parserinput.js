@@ -332,14 +332,98 @@ var data = [
 ];
 //915-937*/
 
-var start = 938;
+/*var start = 938;
 var data = [
     ['pleasure','delight','joy','privilege','treat','honour','pride'], //938
     ['poison','toxin','venom'], //946
     ['polite','civil','gracious','respectful','courteous','gentlemanly','deferential'], //949
     ['poor','disadvantaged','needy','impoverished','deprived','penniless','destitute'] //956-962
 ];
-//938-962
+//938-962*/
+
+/*var start = 963;
+var data = [
+    ['popular','attractive','desirable','appealing','enviable'], //963
+    ['possible','viable','practical','realistic','feasible','workable','achievable'], //968
+    ['potential','prospects','promise','possibilities'], //975
+    ['powerful','dominant','influential','instrumental','high-powered'], //979
+    ['practical','experimental','empirical','applied'] //984
+];
+//963-987*/
+
+/*var start = 988;
+var data = [
+    ['precaution','defence','shield','safeguard','buffer'], //988
+    ['predict','forecast','foresee','prophesy'], //993
+    ['pressure','stress','tension','strain'], //997
+    ['previous','old','former','distant','bygone'], //1001
+    ['pride','arrogance','vanity','egoism','hubris','conceit'] //1006
+];
+//988-1011*/
+
+/*var start = 1012;
+var data = [
+    ['principle','rule','law','tenet'], //1012
+    ['priority','emphasis','stress','precedence'], //1016
+    ['privacy','loneliness','solitude','seclusion','isolation'], //1020
+    ['problem','difficulty','issue','trouble','complication'], //1025
+    ['profit','earnings','dividend','surplus','gain'], //1030
+    ['progress','development','advance','rise','promotion'] //1035
+];
+//1012-1039*/
+
+/*var start = 1040;
+var data = [
+    ['promise','commitment','pledge','oath','assurance'], //1040
+    ['promising','encouraging','bright','rosy','auspicious','hopeful'], //1045
+    ['promote','foster','further','advance','spur'], //1051
+    ['prompt','provoke','trigger','spark'], //1056
+    ['protect','defend','shield','shelter'] //1060
+]
+//1040-1063*/
+
+/*var start = 1064;
+var data = [
+    ['protective','defensive','preventive','precautionary'], //1064
+    ['provide','give','supply','yield','issue'], //1068
+    ['punish','sentence','penalize','discipline'], //1073
+    ['purpose','aim','intention','point'], //1077
+    ['quality','standard','level','caliber'], //1081
+    ['question','interview','interrogate','quiz','debrief'], //1085
+];
+//1064-1089*/
+
+/*var start = 1090;
+var data = [
+    ['quiet','peaceful','silent','tranquil','calm'], //1090
+    ['quite','rather','pretty','fairly','reasonably'], //1095
+    ['quote','cite','repeat','recite','narrate'], //1100
+    ['random','haphazard','indiscriminate','disorganized','untidy','unsystematic'], //1105
+    ['rarely','seldom','hardly','infrequently'], //1111
+    ['rational','coherent','logical'] //1115
+];
+//1090-1117*/
+
+/*var start = 1118;
+var data = [
+    ['real','actual','true','genuine','authentic','proper'], //1118
+    ['realistic','pragmatic','practical','down-to-earth'], //1124
+    ['recession','depression','slump','slowdown','trough'], //1128
+    ['recommend','advise','advocate','urge'], //1133
+    ['recover','get better','heal','recuperate','convalesce'], //1137
+];
+//1118-1141*/
+
+var start = 1142;
+var data = [
+    ['reduce','lower','minimize','decrease'], //1142
+    ['reduction','cut','decline','fall','drop','slump','cutback'], //1146
+    ['refugee','immigrant','migrant','expatriate','exile','emigrant','evacuee'], //1153
+    ['refuse','reject','deny','decline','turn down','veto','rebuff','disallow'] //1161
+];
+//1142-1168 (T.Mod forget 1155)
+
+
 
 
 

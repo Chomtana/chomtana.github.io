@@ -1,0 +1,147 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <style>
+        button {
+            width:75px;
+            height:40px;
+            margin:5px;
+        }
+    </style>
+    
+    <div id="text"></div>
+    <br>
+    <button onclick="ans();">answer</button><br>
+    <button onclick="fail();">fail</button><br>
+    <button onclick="ok();">ok</button><br>
+    <button onclick="shuffle(data);ci=0;process();">random -> reset</button><br>
+    
+    <script>
+var data = [
+    ['531 lonely','alone','isolated','homesick','forlorn','bereft','desolate'], //531-537
+    ['538 long','covet','crave','yearn','hanker'], //538
+    ['543 luxury','splendor','glory','grandeur'], //543
+    ['547 mad','crazy','nuts','batty'], //547
+    ['551 magic','magical','mystical','supernatural','enchanted'], //551
+    ['556 magnificent','impressive','spectacular','grand','glorious','majestic'], //556
+    ['562 main','major','key','central','principal','chief','prime','predominant'], //562-569
+    ['570 maintain','preserve','sustain','extend'], //570
+    ['574 manipulate','steer','engineer','manoeuvre'], //574
+    ['578 marsh','swamp','wetland','bog'], //578
+    ['582 massacre','bloodshed','carnage','genocide','slaughter'], //582
+    ['587 maximum','intense','extreme','utmost','supreme'], //587
+    ['592 mean','nasty','unkind','obnoxious','objectionable','unpleasant'], //592-597
+    ['598 mediocre','indifferent','undistinguished','middling','so-so'], //598
+    ['603 mention','refer to sb/sth','cit','quote','allude to sb/sth'], //603
+    ['608 minor','trivial','petty','insignificant','peripheral','light','unimportant'], //608
+    ['615 miracle','wonder','phenomenon','marvel'], //615
+    ['619 misleading','ambiguous','deceptive','spurious'], //619
+    ['623 mistake','error','omission','blunder','gaffe','oversight'], //623-628
+    ['629 misunderstand','misinterpret','get sth/sb wrong','misjudge'], //629
+    ['633 moderate','dampen','temper','blunt','tone sth down','modify'], //633
+    ['639 modest','humble','unassuming','unpretentious'], //639
+    ['643 moisture','damp','humidity','condensation','dew'], //643
+    ['648 monitor','track','keep an eye on sb/sth','watch','keep track of sb/sth'], //648
+    ['653 morality','right','goodness','purity','virtue','righteousness'], //653-658
+    ['659 mourn','grieve','pine'], //659
+    ['662 murder','suicide','assassination','homicide','slaying','manslaughter','euthanasia'], //662
+    ['669 mystery','problem','paradox','puzzle','enigma'], //669
+    ['674 naive','inexperienced','innocent','trusting','gullible','impressionable'], //674
+    ['680 natural','genetic','intuitive','instinctive','innate','congenital','hereditary'], //680-686
+    ['687 naughty','defiant','rebellious','disobedient'], //687
+    ['691 neat','tidy','ordered','orderly','uncluttered'], //691
+    ['696 necessary','compulsory','mandatory','requisite','obligatory'], //696
+    ['701 negative','bleak','gloomy','depressing','pessimistic','miserable','downbeat'], //701
+    ['708 negotiate','deal with sb/sth','hold talks','bargain','haggle'], //708
+    ['713 normal','ordinary','average','common','typical'], //713-717
+    ['718 objective','impartial','neutral','disinterested','non-partisan','unbiased'], //718
+    ['724 obsession','preoccupation','mania','neurosis','hang-up','fixation','complex'], //724
+    ['731 odour','stench','smell','stink','reek'], //731
+    ['736 offensive','abusive','filthy','rude','foul','coarse'], //736
+    ['742 official','formal','authorized','licensed','accredited'], //742-746
+    ['747 old-fashioned','obsolete','out of date','outdated','antiquated','dated'], //747
+    ['753 opportunity','chance','possibility','occasion'], //753
+    ['757 oppose','resist','combat','defy','rebel'], //757
+    ['762 optimistic','hopeful','positive','bullish','upbeat','expectant'], //762
+    ['768 option','choice','alternative','possibility'], //768-771
+    ['772 output','production','productivity','yield'], //772
+    ['776 outrageous','shocking','disgraceful','shameful','scandalous','deplorable','unforgivable'], //776
+    ['783 overall','gross','umbrella','global','all-round','inclusive'], //783
+    ['789 overcome','get over sth','beat','conquer'], //789
+    ['793 overthrow','downfall','fall','nemesis','undoing'], //793-797
+    ['798 overwhelm','swamp','bombard','flood','inundate'], //798
+    ['803 own','personal','individual','private','subjective','exclusive'], //803
+    ['809 packet','pack','package','carton','tube','tub','sachet'], //809
+    ['816 pain','ache','suffering','discomfort','agony'], //816
+    ['821 painful','sore','raw','inflamed','excruciating','burning','itchy'], //821
+    ['828 parallel','side by side','simultaneous','concurrent'], //828-831
+    ['832 partial','incomplete','unfinished','fragmentary'], //832
+    ['836 participant','contender','challenger','contestant','competitor'], //836
+    ['841 particular','certain','separate','specific','individual','single','respective','distinct'], //841
+    ['849 partly','partially','to some extent','somewhat','moderately'], //849
+    ['854 passive','docile','amenable','submissive','meek','compliant'], //854-859
+    ['860 patience','tolerance','resignation'], //860
+    ['863 patronizing','superior','condescending','snooty','snobbish'], //863
+    ['868 pause','hesitate','break off','dither'], //868
+    ['872 peak','top','height','highlight','climax','culmination','heyday'], //872
+    ['879 perfect','impeccable','exemplary','unspoiled','pristine','flawless','immaculate','faultless'], //879-886
+    ['887 permanent','eternal','lasting','enduring','immortal'], //887
+    ['892 permission','consent','authorization','authority','clearance','the go-ahead'], //892
+    ['898 persist','keep going','hang on','persevere','keep at sth','struggle along/on'], //898
+    ['904 persuade','convince','coax','cajole','convert'], //904
+    ['909 perverse','difficult','unhelpful','awkward','obstructive','uncooperative'], //909-914
+    ['915 pile','heap','stack','mass','mound'], //915
+    ['920 plain','plateau','grassland','prairie','lowland','savannah','steppe','pampas'], //920
+    ['928 plain','simple','bare','stark','severe','austere'], //928
+    ['934 please','gratify','satisfy','make sb day'] //934-937
+]
+
+var ci = 0;
+
+function ans() {
+    var res = "";
+    for(var i = 0;i<data[ci].length;i++) {
+        res += data[ci][i]+"<br>";
+    }
+    document.getElementById("text").innerHTML = res;
+}
+
+function process() {
+    document.getElementById("text").innerHTML = data[ci][0];
+}
+
+function ok() {
+    ci++;
+    process();
+}
+
+function fail() {
+    data.splice(ci+4,0,data[ci]);
+    ci++;
+    process();
+}
+
+/**
+ * Shuffles array in place.
+ * @param {Array} a items The array containing the items.
+ */
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
+    }
+}
+
+process();
+
+
+    </script>
+    
+    </body>
+</html>
